@@ -12,9 +12,9 @@
                             <group>
                                 <field name="active"/>
                             </group>
-                            <!--group>
+                            <group>
                                 <field name="level"/>
-                            </group-->
+                            </group>
                         </group>
                         <notebook>
                             <page string="Description">
@@ -33,7 +33,7 @@
                 <tree string="Course Lista">
                     <field name="name"/>
                     <field name="description"/>
-                    <!--field name="level"/-->
+                    <field name="level"/>
                 </tree>
             </field>
         </record>

@@ -9,6 +9,8 @@
     'data': [
         'views/course_views.xml',
         'views/academy_menuitems.xml',
+        'security/academy_security.xml',
+        'security/ir.model.access.csv',
     ],
     'demo': [
         'demo/academy_demo.xml',

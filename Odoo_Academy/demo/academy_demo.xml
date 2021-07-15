@@ -4,7 +4,7 @@
         <record model="academy.course" id="erp_101">
             <field name="name">ERP 101</field>
             <field name="description">Learn ERP Systems</field>
-            <!--field name="level">beginer</field-->
+            <field name="level">beginer</field>
         </record>
 
         <record model="academy.course" id="accounting_200">
@@ -14,13 +14,13 @@
                 Intermediate Accounting Course
                 Learning about Cost Accounting and pricing and Revenue Analysis.
             </field>
-            <!--field name="level">intermediate</field-->
+            <field name="level">intermediate</field>
         </record>
 
         <record model="academy.course" id="website_500">
             <field name="name">Website 500</field>
             <field name="description"></field>
-            <!--field name="level">advanced</field-->
+            <field name="level">advanced</field>
         </record>
     </data>
 </odoo>
