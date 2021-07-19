@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <data>
+        <record model="mision.nave" id="apollo1">
+            <field name="name">Apollo 1</field>
+            <field name="description">Travel to the moon</field>
+            <field name="capacity">15</field>
+        </record>
+
+        <record model="mision.nave" id="covenant1">
+            <field name="name">Covenant</field>
+            <field name="description">Covenant has an extra tripulant (Alien)</field>
+            <field name="capacity">10</field>
+        </record>
+
+        <record model="mision.nave" id="prometeus2">
+            <field name="name">Nave Prometeus</field>
+            <field name="description"></field>
+            <field name="capacity">16</field>
+        </record>
+    </data>
+</odoo>
