@@ -4,16 +4,25 @@
         <record model="mision.nave" id="apollo1">
             <field name="name">Apollo 1</field>
             <field name="description">Travel to the moon</field>
+            <field name="dimension">50x30</field>
+            <field name="type">median</field>
+            <field name="fuel">super</field>
         </record>
 
         <record model="mision.nave" id="covenant1">
             <field name="name">Covenant</field>
-            <field name="description">Covenant has an extra tripulant (Alien)</field>
+            <field name="description">Covenant has an extra tripulant (Alien)</field>\
+            <field name="dimension">25x30</field>
+            <field name="type">small</field>
+            <field name="fuel">alcohol</field>
         </record>
 
         <record model="mision.nave" id="prometeus2">
             <field name="name">Nave Prometeus</field>
             <field name="description"></field>
+            <field name="dimension">20x20</field>
+            <field name="type">big</field>
+            <field name="fuel">diesel</field>
         </record>
     </data>
 </odoo>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <data>
+        <record model="ir.actions.act_window" id="nave_list_action">
+            <field name="name">Misiones</field>
+            <field name="res_model">mision.nave</field>
+            <field name="view_mode">tree,form</field>
+            <field name="help" type="html">
+                <p class="o_view_nocontent_smiling_face">
+                    Create your first mission.
+                </p>
+            </field>
+        </record>
+
+        <!--record model="ir.actions.act_window" id="session_list_action">
+            <field name="name">Sessions</field>
+            <field name="res_model">academy.session</field>
+            <field name="view_mode">tree,form,calendar</field>
+            <field name="help" type="html">
+                <p class="o_view_nocontent_smiling_face">
+                    Create your first session.
+                </p>
+            </field>
+        </record-->
+
+        <menuitem name="Mision Espacial" id="menu_mision" sequence="1"/>
+        <menuitem id="menu_mision_sub" name="Mision Espacial" parent="menu_mision" sequence="2"/>
+        <menuitem id="menu_mision_naves" name="Naves"  parent="menu_mision_sub" sequence="3"
+                  action="nave_list_action"/>
+    </data>
+</odoo>
