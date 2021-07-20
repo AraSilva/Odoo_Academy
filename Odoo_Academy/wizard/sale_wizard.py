@@ -30,7 +30,7 @@ class SaleWizard(models.TransientModel):
             for student in self.student_ids:
                 order_id = self.env['sale.order'].create({
                     'partner_id': student.id,
-                    'session_id': self.session.id,
+                    'session_id': self.session_id.id,
                     'order_line': [(0, 0, {'product_id': session_product_id.id,
                                            'price_unit': self.session_id.total_price})]
                 })
