@@ -1,5 +1,17 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <odoo>
+    <data>
+        <record model="mision.nave" id="apollo1">
+            <field name="name">Apollo 1</field>
+            <field name="description">Travel to the moon and back</field>
+            <field name="dimension">20x40</field>
+            <field name="type">median</field>
+            <field name="fuel">super</field>
+            <field name="capacity">10</field>
+        </record>
+    </data>
+</odoo>
+<!--odoo>
     <data>
         <record model="mision.nave" id="apollo1">
             <field name="name">Apollo 1</field>
@@ -11,7 +23,7 @@
 
         <record model="mision.nave" id="covenant1">
             <field name="name">Covenant</field>
-            <field name="description">Covenant has an extra tripulant (Alien)</field>\
+            <field name="description">Covenant has an extra tripulant (Alien)</field>
             <field name="dimension">25x30</field>
             <field name="type">small</field>
             <field name="fuel">alcohol</field>
@@ -25,4 +37,4 @@
             <field name="fuel">diesel</field>
         </record>
     </data>
-</odoo>
+</odoo-->
