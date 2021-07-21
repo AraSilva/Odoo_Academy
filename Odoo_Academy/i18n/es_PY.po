@@ -70,7 +70,7 @@ msgstr "Test de base price"
 #: code:addons/Odoo_Academy/models/course.py:0
 #, python-format
 msgid "Base Price can not be set as Negative."
-msgstr "Test de traduccion de base price"
+msgstr "Test de traduccion de base price espanhol"
 
 #. module: Odoo_Academy
 #: model:ir.model.fields.selection,name:Odoo_Academy.selection__academy_course__level__beginer
