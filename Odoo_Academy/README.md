@@ -1,2 +1,3 @@
 # Odoo_Academy
 Curso de Odo...
+***Terminado hasta el día 10***
